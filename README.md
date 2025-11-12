@@ -1,0 +1,2 @@
+# A-Multi-Agent-Decision-Intelligence-System-for-Optimization-under-Uncertainty
+A Multi-Agent Decision Intelligence System for Optimization under Uncertainty takes an engineering problem as input, analyzes related documents to extract key information, and uses AI agents and large language models to build and refine optimization models, delivering efficient and interpretable solutions for complex engineering challenges.
