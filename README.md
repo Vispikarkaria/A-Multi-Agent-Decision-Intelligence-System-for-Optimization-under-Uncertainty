@@ -2,6 +2,10 @@
 
 This repository hosts an end-to-end decision intelligence environment for translating free-form engineering optimization problems into executable solvers with uncertainty awareness. Large Language Models (LLMs) act as coordinated agents that (1) interpret requirements, (2) synthesize candidate optimization code, (3) execute and auto-repair that code, and (4) summarize the solution together with epistemic uncertainty estimates.
 
+![Design Copilot Overview](fig/design_copilot.png)
+
+*Design Copilot view illustrating how LLM agents collaborate with the Streamlit console, sandbox executor, and interpretation layer.*
+
 ## Key Capabilities
 - **One-click Streamlit console** (`optimization_agent_streamlit_UQ_planning.py`) that orchestrates code generation, execution in a sandbox, automatic debugging, and natural-language interpretation.
 - **Multi-sample uncertainty quantification**: generates multiple candidate solvers, computes similarity metrics (semantic or lexical), and surfaces epistemic uncertainty via mean similarity scores.
